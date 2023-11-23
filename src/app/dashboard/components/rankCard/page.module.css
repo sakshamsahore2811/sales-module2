@@ -1,0 +1,125 @@
+@media screen and (min-width: 700px) {
+  .window {
+    width: 100%;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+  .rankCardComponents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 4%;
+  }
+
+  .circle {
+    color: white;
+    width: 50%;
+    aspect-ratio: 1;
+    background-color: #3dcbb1;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rankCardText {
+    margin-top: 2%;
+  }
+
+  .rankDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+
+  .leaderBtn {
+    margin: 5%;
+    padding: 3%;
+    border: none;
+    border-radius: 1000px;
+    width: 90%;
+    background-color: #0f2336;
+    color: white;
+    font-size: 2vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .window {
+    display: none;
+  }
+
+  .mobile{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: center;
+  }
+
+  .rankCard__mobile__leftHalf{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__button{
+    color: #00ACC1;
+    border:1px solid #00ACC1;
+    border-radius: 5px;
+    background-color: white;
+    padding: 2%;
+  }
+
+  .rankCard__mobile__rightHalf{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
+  .rankCircle{
+    width: 60%;
+    aspect-ratio: 1;
+    background-color: #3dcbb1;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 10%;
+  }
+
+  .rankDetails{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 17%;
+  }
+
+  .rank{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .rankContainer{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+    background-color: #D7F5FC;
+    border-radius: 2px;
+    color:#00ACC1;
+    margin: 2%;
+  }
+}

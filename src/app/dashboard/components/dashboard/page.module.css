@@ -1,0 +1,170 @@
+.parent {
+  width: 100%;
+  margin: auto;
+}
+
+.cardParent {
+  padding-top: 1%;
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 700px) {
+  .graphRankHolder {
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    column-gap: 2%;
+  }
+
+  .cardHolder {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .graph {
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .graphHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .graphFooter {
+    margin: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rank {
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2%;
+  }
+
+  .rankHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .rankHolder {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cardHolder {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .graphRankHolder {
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .graph {
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .rank {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2%;
+    margin-bottom: 2%;
+  }
+  .graphHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .graphFooter {
+    margin: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rankHeader {
+    display: none;
+  }
+}
+
+.topAccounts {
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+
+.cardParent {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.graph {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.rank {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}

@@ -1,0 +1,38 @@
+.ProfileCards__parent{
+    width: 90%;
+    margin: auto;
+    
+    margin-top: 4%;
+}
+
+.ProfileCards__card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    row-gap: 1%;
+    border-radius: 10px;
+    box-shadow: 2px 1.8px 4px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    margin-bottom: 2%;
+}
+
+.ProfileCards__name{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ProfileCards__contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ProfileCards__img{
+    margin-right: 3%;
+}

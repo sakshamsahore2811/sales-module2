@@ -1,0 +1,13 @@
+
+.Bar{
+  width: 400px;
+  height: 300px;
+  border: 1px solid #E6E6E6;
+  border-radius: 8px;
+  padding: 30px;
+}
+@media(max-width: 700px){
+  .Bar{
+    background-image: none;
+  }
+}

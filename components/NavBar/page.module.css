@@ -1,0 +1,36 @@
+.parent {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  margin-top: 1%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.greetings {
+  display: flex;
+  flex-direction: column;
+}
+
+.account {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.img {
+  width: 80%;
+  object-fit: contain;
+}
+
+.accountInfo{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 700px) {
+  .accountInfo {
+    display: none;
+  }
+}

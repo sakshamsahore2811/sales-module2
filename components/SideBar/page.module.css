@@ -1,0 +1,133 @@
+@media screen and (min-width: 700px) {
+  .parent {
+    background-color: #00acc1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 10%;
+  }
+
+  .lower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    width: 100%;
+  }
+
+  .icon {
+    width: 23%;
+    object-fit: contain;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .parent {
+    background-color: #f5f4f7;
+  }
+
+  .window {
+    display: none;
+  }
+
+  .mobile {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .SideBar__mobile__logo {
+    width: 30%;
+    object-fit: contain;
+  }
+
+  .SideBar__mobile__hamburger {
+    width: 6%;
+    object-fit: contain;
+  }
+
+  .mobile__drawer__open {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 998;
+    background-color: rgba(37, 151, 176, 0.85);
+  }
+
+  .mobile__drawer__closed{
+    display: none;
+  }
+ 
+  .SideBar__mobile__hamburger__open{
+    width: 5.4%;
+    object-fit: contain;
+    position: fixed;
+    top: 1.45%;
+    right: 4.9%;
+  }
+
+  .SideBar__mobile__navigation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+  }
+
+  .SideBar__mobile__navigation__upper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .SideBar__mobile__navigation__lower{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+  }
+
+  .navigation__list{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  .icon__mobile{
+    width: 23%;
+    object-fit: contain;
+  }
+
+  .navigation__text{
+    margin-left: 3%;
+  }
+
+}

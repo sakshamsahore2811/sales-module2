@@ -1,0 +1,13 @@
+.form_parent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.form_input{
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    padding-left: 0.5%;
+    padding-right: 2%;
+}
